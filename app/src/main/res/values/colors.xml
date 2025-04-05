@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- 应用主题颜色 - 更新为蓝色系 -->
+    <color name="colorPrimary">#1976D2</color>
+    <color name="colorPrimaryDark">#0D47A1</color>
+    <color name="colorAccent">#42A5F5</color>
+    <color name="colorPrimaryLight">#BBDEFB</color>
+    
+    <!-- 状态颜色 - 更鲜明的对比 -->
+    <color name="statusAvailable">#4CAF50</color>
+    <color name="statusFull">#78909C</color>
+    <color name="statusCancelled">#F44336</color>
+    <color name="statusWaiting">#FF9800</color>
+    <color name="status_done">#00C853</color>
+    <color name="status_expired">#9E9E9E</color>
+    <color name="status_today">#2196F3</color>
+    <color name="status_pending">#FFB300</color>
+    
+    <!-- 文本颜色 - 更高对比度 -->
+    <color name="textPrimary">#263238</color>
+    <color name="textSecondary">#607D8B</color>
+    <color name="textLight">#ECEFF1</color>
+    
+    <!-- 背景色 - 更柔和的色调 -->
+    <color name="backgroundMain">#F5F7FA</color>
+    <color name="backgroundCard">#FFFFFF</color>
+    <color name="backgroundSecondary">#EEF2F6</color>
+    <color name="divider">#ECEFF1</color>
+    
+    <!-- 阴影色 - 更细腻的阴影 -->
+    <color name="shadowColor">#12000000</color>
+    <color name="rippleColor">#22000000</color>
+    
+    <!-- 新增医疗相关颜色 -->
+    <color name="medical_blue_light">#E1F5FE</color>
+    <color name="medical_green_light">#E8F5E9</color>
+    <color name="medical_red_light">#FFEBEE</color>
+    <color name="medical_yellow_light">#FFF8E1</color>
+</resources>

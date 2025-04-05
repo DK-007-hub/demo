@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="schedule_item_desc">医生：%1$s，科室：%2$s，时间段：%3$s，状态：%4$s，可预约人数：%5$d/%6$d</string>
+</resources>
