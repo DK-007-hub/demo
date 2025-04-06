@@ -38,33 +38,7 @@ public class DBHelper {
         }
     }
 
-    public static int getUserSize() {
-        String cls = "com.mysql.jdbc.Driver";
-        // 确保连接字符串一致
-        String url = "jdbc:mysql://192.168.188.177:3306/db1?useUnicode=true&characterEncoding=UTF-8";
-        String user = "dk";
-        String password = "123123";
 
-        int count = 2;
-        try {
-            Class.forName(cls);
-            Connection connection = DriverManager.getConnection(url, user, password);
-            String sql = "select count(1) as s1 from user";
-            Statement statement = connection.createStatement();
-            ResultSet resultSet = statement.executeQuery(sql);
-            while (resultSet.next()) {
-                count = resultSet.getInt("s1");
-            }
-            // 关闭资源
-            resultSet.close();
-            statement.close();
-            connection.close();
-        } catch (Exception e) {
-            Log.e(TAG, "getUserSize失败: " + e.getMessage(), e);
-            e.printStackTrace();
-        }
-        return count;
-    }
     
     // 添加测试连接方法
     public static boolean testConnection() {
